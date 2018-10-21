@@ -54,6 +54,22 @@ ReactDOM.render(
 
 This example will render "Hello Taylor" into a container on the page.
 
+## What’s New
+Here’s a short summary of what’s new in this release:
+
+🎉 More styling options: you can use Sass and CSS Modules out of the box.
+🐠 We updated to Babel 7, including support for the React fragment syntax and many bugfixes.
+📦 We updated to webpack 4, which automatically splits JS bundles more intelligently.
+🃏 We updated to Jest 23, which includes an interactive mode for reviewing snapshots.
+💄 We added PostCSS so you can use new CSS features in old browsers.
+💎 You can use Apollo, Relay Modern, MDX, and other third-party Babel Macros transforms.
+🌠 You can now import an SVG as a React component, and use it in JSX.
+🐈 You can try the experimental Yarn Plug’n’Play mode that removes node_modules.
+🕸 You can now plug your own proxy implementation in development to match your backend API.
+🚀 You can now use packages written for latest Node versions without breaking the build.
+✂️ You can now optionally get a smaller CSS bundle if you only plan to target modern browsers.
+👷‍♀️ Service workers are now opt-in and are built using Google’s Workbox.
+
 You'll notice that we used an HTML-like syntax; [we call it JSX](https://reactjs.org/docs/introducing-jsx.html). JSX is not required to use React, but it makes code more readable, and writing it feels like writing HTML. If you're using React as a `<script>` tag, read [this section](https://reactjs.org/docs/add-react-to-a-website.html#optional-try-react-with-jsx) on integrating JSX; otherwise, the [recommended JavaScript toolchains](https://reactjs.org/docs/create-a-new-react-app.html) handle it automatically.
 
 ## Contributing
